@@ -2,12 +2,19 @@ body {
     background-image: url("https://oboi.ws/wallpapers/17_1813_oboi_karta_mira_1920x1080.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.body {
     height: 100vm;
     display: block;
+    justify-content: center;
+    align-items: center;
 }
 
 h1 {
-    margin: 40px auto 40px 35%;
+    display: flex;
+    justify-content: inherit;
+    align-items: inherit;
     color: #000000;
     font-size: 3em;
 }
@@ -15,9 +22,11 @@ h1 {
 .container {
     margin: auto;
     display: flex;
+    justify-content: inherit;
+    align-items: inherit;
     flex-wrap: wrap;
     flex-direction: row;
-    height: 1000px;
+    height: 800px;
     width: 40%;
 }
 
