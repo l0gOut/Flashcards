@@ -1,0 +1,59 @@
+body {
+    background-image: url("https://oboi.ws/wallpapers/17_1813_oboi_karta_mira_1920x1080.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vm;
+    display: block;
+}
+
+h1 {
+    margin: 40px auto 40px 35%;
+    color: #000000;
+    font-size: 3em;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    height: 1000px;
+    width: 40%;
+}
+
+
+.card {
+    margin: 0 15px;
+    height: 25%;
+    width: 25%;
+    position: relative;
+    transition: all 1s linear;
+    transform-style: preserve-3d;
+}
+
+.front,
+.back {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+    font-family: "Lobser", cursive;
+    border-radius: 10px;
+    position: absolute;
+}
+
+.front {
+    background-color: #ffd1c0;
+    z-index: 1;
+    backface-visibility: hidden;
+}
+
+.back {
+    background-color: darkorange;
+    transform: rotateY(180deg);
+}
+.card:hover {
+    transform: rotateY(180deg);
+}
