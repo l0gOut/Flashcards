@@ -1,7 +1,5 @@
 body {
-    background-image: url("https://oboi.ws/wallpapers/17_1813_oboi_karta_mira_1920x1080.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("https://txtrs.ru/textures/asphalt/asphalt-2-2.jpg");
     font-family: "Lobser", cursive;
 }
 
@@ -37,7 +35,7 @@ h1 {
 
 
 .card {
-    margin: 0 15px;
+    margin: 8px 15px;
     height: 25%;
     width: 25%;
     position: relative;
@@ -58,6 +56,7 @@ h1 {
 
 .front {
     background-color: #ffd1c0;
+    border: 3px solid #ffcbb0;
     z-index: 1;
     backface-visibility: hidden;
 }
