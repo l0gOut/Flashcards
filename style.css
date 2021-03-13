@@ -2,6 +2,7 @@ body {
     background-image: url("https://oboi.ws/wallpapers/17_1813_oboi_karta_mira_1920x1080.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family: "Lobser", cursive;
 }
 
 .body {
@@ -9,6 +10,10 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
+}
+
+p {
+    font-size: 2em;
 }
 
 h1 {
@@ -47,8 +52,6 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2em;
-    font-family: "Lobser", cursive;
     border-radius: 10px;
     position: absolute;
 }
